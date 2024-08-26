@@ -68,3 +68,19 @@ body {
     width: 70px;
 }
 
+#lyrics-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+#music-play {
+    display: block;
+    background-color: #DB5D73;
+    color: black;
+    padding: 5px 15px;
+    border: none;
+    font-size: 11px;
+    text-align: center;
+    margin: 20px auto 0;
+
