@@ -25,6 +25,20 @@
         <div class="spotify-logo">
             <img src="Spotify_logo_black.png" alt="Spotify">
         </div>
+        <audio id="background-music" loop>
+  <source src="Voyagers.mp3" type="audio/mpeg">
+  oli
+</audio>
+<button id="music-play">Escuchar</button>
+
+<script>
+  const music = document.getElementById('background-music');
+  const playButton = document.getElementById('music-play');
+
+  playButton.addEventListener('click', () => {
+    music.play();
+  });
+</script>
     </div>
 </body>
-</html>
+        </html>
