@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif, 'Poppins';
+    background-color: #C15265;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 220px;
+    color: #black;
+    position: relative;
+}
+
+.container {
+    background-color: #DB5D73;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    color: #white;
+}
+
+.song-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.song-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.text-info h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.text-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #black;
+}
+
+.lyrics {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Poppins'
+}
+
+.spotify-logo {
+    position: absolute; 
+    bottom: 1px; 
+    left: 17px; 
+}
+
+.spotify-logo img {
+    width: 70px;
+}
+
