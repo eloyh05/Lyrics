@@ -74,6 +74,13 @@ body {
     padding-bottom: 15px;
 }
 
+
+#lyrics-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
 #music-play {
     display: block;
     background-color: #DB5D73;
@@ -83,4 +90,68 @@ body {
     font-size: 11px;
     text-align: center;
     margin: 20px auto 0;
+}
 
+.corner-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.corner-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+        .container {
+            position: relative;
+        }
+
+        #music-play {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px; /* Espacio adicional para el botón */
+        }
+
+        #progress-container {
+            width: 85%;
+            max-width: 300px;
+            background-color: #C15265;
+            border-radius: 20px;
+            height: 10px;
+            position: absolute;
+            bottom: 10px; /* Mueve la barra de progreso un poco más abajo */
+            left: 50%;
+            transform: translateX(-50%);
+            display: none; /* Ocultado por defecto */
+        }
+
+        #progress-bar {
+            width: 0;
+            height: 100%;
+            background-color: #602831;
+            border-radius: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* Asegúrate de que las letras no cambien de posición */
+        .lyrics {
+            text-align: left; /* Ajusta la alineación según el diseño original */
+            margin: 0 auto; /* Centro horizontal, solo si es necesario */
+        }
